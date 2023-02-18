@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %} - My Application</title>
+    {% endblock %}
+    <style>
+
+        *{
+
+           font-family: 'Courier New';
+        }
+        h1{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h1>A Simple Message Bank</h1>
+    	<ul>
+			<li><a href={{url_for('Insert')}}>Submit a message</a></li>
+			<li><a href={{url_for('View')}}>View messages</a>
+				
+			</li>
+		
+			
+	   </ul>
+	</div>
+    {% block body %}
+    {% endblock %}
+</body>
+
+

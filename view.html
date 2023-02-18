@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}submit{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style></style>
+{% endblock %}
+{% block body %}
+    <h1>Some Cool Messages</h1>
+    <ul>
+        
+            {% for msg in msgs %}
+
+    <li>
+        <p>{{msg[1]}}</p>
+        <p>{{msg[2]}}</p>
+    </li>
+  {% endfor %}
+
+        
+    </ul>
+
+{% endblock %}
