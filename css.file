@@ -1,0 +1,39 @@
+html {
+    font-family: Courier New;
+    background: AntiqueWhite;
+    padding: 1rem;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: blue;
+    font-family: Courier New;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    background: LightSteelBlue;
+    padding: 0 0.5rem;
+    border-radius: 25px;
+    font-family: Courier New
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.4rem;
+    color:DarkSlateGray;
+    font-family: Courier New
+}
+
+.content {
+    padding: 0 1rem 1rem;
+    background: AntiqueWhite;
+    border-radius: 25px;
+    color:DarkSlateGray;
+    font-family: Courier New
+}
